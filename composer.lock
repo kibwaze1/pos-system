@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "706e0219e531e71ecab6d4d5eb1526c0",
+    "content-hash": "c54e97f54c76b55579e5c881c6869b2d",
     "packages": [
         {
             "name": "barryvdh/laravel-dompdf",
@@ -958,80 +958,6 @@
             "time": "2025-10-17T16:34:55+00:00"
         },
         {
-            "name": "felixmuhoro/laravel-mpesa",
-            "version": "v1.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/felixmuhoro/laravel-mpesa.git",
-                "reference": "e9edd3327fa0ff80f9f27f1bff7ee7b0179527a8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/felixmuhoro/laravel-mpesa/zipball/e9edd3327fa0ff80f9f27f1bff7ee7b0179527a8",
-                "reference": "e9edd3327fa0ff80f9f27f1bff7ee7b0179527a8",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/contracts": "^10.0|^11.0|^12.0|^13.0",
-                "illuminate/http": "^10.0|^11.0|^12.0|^13.0",
-                "illuminate/support": "^10.0|^11.0|^12.0|^13.0",
-                "php": "^8.1"
-            },
-            "require-dev": {
-                "mockery/mockery": "^1.6",
-                "orchestra/testbench": "^8.0|^9.0|^10.0|^11.0",
-                "phpunit/phpunit": "^10.0|^11.0|^12.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "aliases": {
-                        "Mpesa": "FelixMuhoro\\Mpesa\\Facades\\Mpesa"
-                    },
-                    "providers": [
-                        "FelixMuhoro\\Mpesa\\MpesaServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "FelixMuhoro\\Mpesa\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Felix Muhoro",
-                    "email": "hi@felixmuhoro.dev",
-                    "homepage": "https://felixmuhoro.dev",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Modern, fully-typed M-Pesa Daraja 2.0 integration for Laravel 10 / 11 / 12. STK Push, C2B, B2C, callbacks, events, and an exhaustive result-code dictionary — battle-tested in production.",
-            "homepage": "https://github.com/felixmuhoro/laravel-mpesa",
-            "keywords": [
-                "B2C",
-                "c2b",
-                "daraja",
-                "kenya",
-                "laravel",
-                "lipa-na-mpesa",
-                "mpesa",
-                "payments",
-                "safaricom",
-                "stk-push"
-            ],
-            "support": {
-                "email": "hi@felixmuhoro.dev",
-                "issues": "https://github.com/felixmuhoro/laravel-mpesa/issues",
-                "source": "https://github.com/felixmuhoro/laravel-mpesa"
-            },
-            "time": "2026-04-21T16:35:59+00:00"
-        },
-        {
             "name": "fruitcake/php-cors",
             "version": "v1.4.0",
             "source": {
@@ -1104,7 +1030,7 @@
         },
         {
             "name": "ghostscypher/laravel-mpesa",
-            "version": "v1.7",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ghostscypher/laravel-mpesa.git",
@@ -1131,6 +1057,7 @@
                 "pestphp/pest": "^1.0 |^2.0|^3.0|^4.0",
                 "pestphp/pest-plugin-laravel": "^1.0|^2.0|^3.0|^4.0|^5.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -9923,7 +9850,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "ghostscypher/laravel-mpesa": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
